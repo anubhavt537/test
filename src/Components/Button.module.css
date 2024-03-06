@@ -1,0 +1,20 @@
+/* components/Button.module.css */
+.button {
+    cursor: pointer;
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0; /* Set the initial background color to grey */
+    transition: background-color 0.3s ease; /* Add a transition for smooth color change */
+    border-radius: 20px;
+  }
+  
+  .button:hover {
+    background-color: lightgrey; /* Change background color on hover */
+  }
+  
+  .green {
+    background-color: lightgreen; /* Change background color to green on click */
+  }
+  

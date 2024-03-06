@@ -1,0 +1,19 @@
+/* components/ReviewSection.module.css */
+.reviewSection {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Align all headers to the left on larger screens */
+  .reviewSection h2 {
+    text-align: left;
+  }
+  
+  /* Add custom styles for smaller screens */
+  @media (max-width: 768px) {
+    .reviewSection {
+      padding: 10px;
+    }
+  }
+  

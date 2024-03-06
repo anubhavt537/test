@@ -1,0 +1,19 @@
+/* components/ThumbsRating.module.css */
+.thumbsRating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .thumbButton {
+    cursor: pointer;
+    font-size:64px;
+    margin: 0 10px;
+    border: none;
+    background: none;
+    transition: color 0.3s ease; /* Add a transition for smooth color change */
+  }
+  
+  .green {
+    color: green;
+  }
+  

@@ -1,0 +1,15 @@
+/* components/Header.module.css */
+.header {
+    text-align: left;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Add custom styles for smaller screens */
+  @media (max-width: 768px) {
+    .header {
+      padding: 10px;
+    }
+  }
+  

@@ -1,0 +1,16 @@
+/* components/StarRating.module.css */
+.starRating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    cursor: pointer;
+    font-size: 60px;
+    margin: 0 2px;
+  }
+  
+  .filled {
+    color: yellow;
+  }
+  
